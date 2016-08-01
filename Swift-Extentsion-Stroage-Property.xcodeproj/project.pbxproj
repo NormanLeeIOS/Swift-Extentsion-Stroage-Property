@@ -14,6 +14,7 @@
 		A10B89C11D4EF943003CEE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10B89BF1D4EF943003CEE5B /* LaunchScreen.storyboard */; };
 		A10B89CC1D4EF943003CEE5B /* Swift_Extentsion_Stroage_PropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B89CB1D4EF943003CEE5B /* Swift_Extentsion_Stroage_PropertyTests.swift */; };
 		A10B89D71D4EF943003CEE5B /* Swift_Extentsion_Stroage_PropertyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B89D61D4EF943003CEE5B /* Swift_Extentsion_Stroage_PropertyUITests.swift */; };
+		A119606B1D4EFC7200010BE5 /* UIViewController+StorageProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119606A1D4EFC7200010BE5 /* UIViewController+StorageProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A10B89D21D4EF943003CEE5B /* Swift-Extentsion-Stroage-PropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Extentsion-Stroage-PropertyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10B89D61D4EF943003CEE5B /* Swift_Extentsion_Stroage_PropertyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Extentsion_Stroage_PropertyUITests.swift; sourceTree = "<group>"; };
 		A10B89D81D4EF943003CEE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A119606A1D4EFC7200010BE5 /* UIViewController+StorageProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StorageProperty.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A10B89B61D4EF943003CEE5B /* AppDelegate.swift */,
 				A10B89B81D4EF943003CEE5B /* ViewController.swift */,
+				A119606A1D4EFC7200010BE5 /* UIViewController+StorageProperty.swift */,
 				A10B89BA1D4EF943003CEE5B /* Main.storyboard */,
 				A10B89BD1D4EF943003CEE5B /* Assets.xcassets */,
 				A10B89BF1D4EF943003CEE5B /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A119606B1D4EFC7200010BE5 /* UIViewController+StorageProperty.swift in Sources */,
 				A10B89B91D4EF943003CEE5B /* ViewController.swift in Sources */,
 				A10B89B71D4EF943003CEE5B /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				A10B89DD1D4EF943003CEE5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A10B89DE1D4EF943003CEE5B /* Build configuration list for PBXNativeTarget "Swift-Extentsion-Stroage-PropertyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				A10B89E01D4EF943003CEE5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A10B89E11D4EF943003CEE5B /* Build configuration list for PBXNativeTarget "Swift-Extentsion-Stroage-PropertyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				A10B89E31D4EF943003CEE5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
